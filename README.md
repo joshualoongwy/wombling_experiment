@@ -32,4 +32,4 @@ This app requires pre-processed boundaries files to work, where the file is a fe
 This is related to the 2D and 3D modes functionality and the limitations of the Mapbox API. 2D mode uses the unbuffered file as the source and 3D mode uses the buffered file as the source. This is because you cannot draw vertical heights on line features in Mapbox, so, as a workaround, we use the fill-extrusion layer type to draw the walls in 3D, which only works on a polygon source.
 Each area type also requires a geojson file that contains the polygons for each area, as this is related to the area popup functionality.
 
-The boundaries files were created using the scripts in the following repository: https://github.com/jloo0021/reproject_geojson
+The boundaries files were created using the scripts in the following repository: https://github.com/joshualoongwy/reproject_geojson
